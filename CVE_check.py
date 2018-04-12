@@ -98,10 +98,9 @@ for vendprod in vendor_productfile:
                         print resultinfo
                 else:
                     print "CVSS treshhold lower, no notify"
-#            else:
-#                print "CVE is older than last runtime, ignore"
+            else:
+                print "CVE is older than last runtime, ignore"
 
-sys.exit()
 #Before we done, write the current epoch time of when we done.
 print "Done with run, writing current time to file"
 epoch_time = int(time.time())
