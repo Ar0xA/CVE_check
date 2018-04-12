@@ -1,0 +1,12 @@
+#This file contains the list of vendor/product combinations that need checking on security 
+#issues. 
+#
+#One vendor/product per line, no empty lines!
+#
+#Combinations can be verified by visiting https://cve.circl.lu/api/search/<vendor>/<product> in your
+#browser.
+#
+#Products per vendor van be verified by visiting https://cve.circl.lu/api/browse/<vendor>
+#
+#example: https://cve.circl.lu/api/browse/apache
+microsoft/office
